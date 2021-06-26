@@ -18,7 +18,7 @@
 * encoder.out 프로그램을 만들어 다음과 같이 실행
 
 → ./encoder.out test1.txt encoded_data1
-→ 실행결과 자체 프로토콜로 인코딩 된 데이터파일encoded_data1 가 생성
+→ 실행결과 자체 프로토콜로 인코딩 된 데이터파일 encoded_data1 가 생성
 
 * adversary.out 프로그램으로 encoded_data1 파일 조작
 
