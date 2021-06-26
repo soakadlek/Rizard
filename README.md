@@ -16,16 +16,20 @@
 
 **사용 방법**     
 * encoder.out 프로그램을 만들어 다음과 같이 실행
+
 → ./encoder.out test1.txt encoded_data1
 → 실행결과 자체 프로토콜로 인코딩 된 데이터파일encoded_data1 가 생성
 
 * adversary.out 프로그램으로 encoded_data1 파일 조작
+
 → ./adversary.out encoded_data1 4
 → 마지막의 숫자 4는 4군데를 수정 한다는 의미
 
 * decoder.out 프로그램을 만들어 다음과 같이 실행
+
 → ./decoder.out encoded_data1.modified result1.txt
 → 최종 결과파일: result1.txt
 
 * vimdiff를 이용하여 바이트 비교
-→ 
+
+→ vimdiff test1.txt result1.txt
